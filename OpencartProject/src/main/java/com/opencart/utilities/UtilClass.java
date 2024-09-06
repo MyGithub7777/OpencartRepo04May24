@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -116,4 +117,17 @@ public class UtilClass extends TestBase {
 		return s;
 	}
 	
+	//----------------- Mouse Actions ---------------------------------
+	
+	public static void mouseHoverToElement(WebElement element)
+	{
+		Actions act = new Actions(driver);
+		act.moveToElement(element).build().perform();
+	}
+	
+	public static void dragAndDropTheElement(WebElement src, WebElement target)
+	{
+		Actions act = new Actions(driver);
+		act.dragAndDrop(src, target).build().perform();
+	}
 }
