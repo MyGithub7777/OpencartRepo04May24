@@ -1,45 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-06T10:07:39 IST" name="Default suite" finished-at="2024-09-06T10:08:02 IST" duration-ms="22313">
+  <suite started-at="2024-09-06T10:10:49 IST" name="Default suite" finished-at="2024-09-06T10:11:02 IST" duration-ms="12728">
     <groups>
     </groups>
-    <test started-at="2024-09-06T10:07:39 IST" name="Default test" finished-at="2024-09-06T10:08:02 IST" duration-ms="22313">
-      <class name="com.opencart.testlayer.RegisterTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:com.opencart.testlayer.RegisterTest@4567f35d]" started-at="2024-09-06T10:07:39 IST" name="start" finished-at="2024-09-06T10:07:39 IST" duration-ms="205" status="PASS">
+    <test started-at="2024-09-06T10:10:49 IST" name="Default test" finished-at="2024-09-06T10:11:02 IST" duration-ms="12728">
+      <class name="com.opencart.testlayer.AddressTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.opencart.testlayer.AddressTest@2e005c4b]" started-at="2024-09-06T10:10:49 IST" name="start" finished-at="2024-09-06T10:10:49 IST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencart.testlayer.RegisterTest@4567f35d]" started-at="2024-09-06T10:07:39 IST" name="setUp" finished-at="2024-09-06T10:07:47 IST" duration-ms="7963" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencart.testlayer.AddressTest@2e005c4b]" started-at="2024-09-06T10:10:49 IST" name="setUp" finished-at="2024-09-06T10:10:55 IST" duration-ms="5704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterWithAlreadyExistingEmail()[pri:0, instance:com.opencart.testlayer.RegisterTest@4567f35d]" started-at="2024-09-06T10:07:47 IST" name="verifyRegisterWithAlreadyExistingEmail" finished-at="2024-09-06T10:07:50 IST" duration-ms="2396" status="PASS">
+        <test-method signature="verifyAddingNewAddress()[pri:0, instance:com.opencart.testlayer.AddressTest@2e005c4b]" started-at="2024-09-06T10:10:55 IST" name="verifyAddingNewAddress" finished-at="2024-09-06T10:11:01 IST" duration-ms="5936" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisterWithAlreadyExistingEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testlayer.RegisterTest@4567f35d]" started-at="2024-09-06T10:07:50 IST" name="tearDown" finished-at="2024-09-06T10:07:50 IST" duration-ms="528" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.opencart.testlayer.RegisterTest@4567f35d]" started-at="2024-09-06T10:07:50 IST" name="setUp" finished-at="2024-09-06T10:07:55 IST" duration-ms="5116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterWithValidDetails()[pri:0, instance:com.opencart.testlayer.RegisterTest@4567f35d]" started-at="2024-09-06T10:07:55 IST" name="verifyRegisterWithValidDetails" finished-at="2024-09-06T10:08:01 IST" duration-ms="5414" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisterWithValidDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testlayer.RegisterTest@4567f35d]" started-at="2024-09-06T10:08:01 IST" name="tearDown" finished-at="2024-09-06T10:08:02 IST" duration-ms="618" status="PASS">
+        </test-method> <!-- verifyAddingNewAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.testlayer.AddressTest@2e005c4b]" started-at="2024-09-06T10:11:01 IST" name="tearDown" finished-at="2024-09-06T10:11:02 IST" duration-ms="899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:com.opencart.testlayer.RegisterTest@4567f35d]" started-at="2024-09-06T10:08:02 IST" name="finish" finished-at="2024-09-06T10:08:02 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="finish()[pri:0, instance:com.opencart.testlayer.AddressTest@2e005c4b]" started-at="2024-09-06T10:11:02 IST" name="finish" finished-at="2024-09-06T10:11:02 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->
-      </class> <!-- com.opencart.testlayer.RegisterTest -->
+      </class> <!-- com.opencart.testlayer.AddressTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
